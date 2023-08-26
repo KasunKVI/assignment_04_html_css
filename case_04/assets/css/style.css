@@ -1,0 +1,28 @@
+
+div {
+    width: 100px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    right: 0;
+    margin: auto;
+    border: 2px solid grey;
+    animation: drop-animation infinite linear;
+    animation-duration: 1s;
+}
+
+@keyframes drop-animation {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+       transform: scale(1.5);
+    }
+    100% {
+       transform: scale(2);
+        opacity: 0;
+    }
+}
