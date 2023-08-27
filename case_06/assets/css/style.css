@@ -16,6 +16,7 @@ section>div:nth-child(2){
     position: absolute;
     bottom: 0;
     animation: background  8s reverse ease-in infinite;
+    animation-delay: 3s;
 }
 section>div:nth-child(3){
     background-image: url("/case_06/assets/images/city.png");
@@ -26,6 +27,7 @@ section>div:nth-child(3){
     position: absolute;
     bottom: 30vh;
     animation: background  8s reverse ease-in infinite;
+    animation-delay: 3s;
 }
 section>div:last-child{
     background-image: url("/case_06/assets/images/car.png");
@@ -47,6 +49,7 @@ section>div:last-child>div:first-child{
     top: 11vh;
     left: 2.2vw;
     animation: wheels_animation  8s alternate linear infinite;
+    animation-delay: 3s;
 
 }
 section>div:last-child>div:last-child{
@@ -59,6 +62,7 @@ section>div:last-child>div:last-child{
     top: 2vh;
     left: 17.5vw;
     animation: wheels_animation  8s alternate linear infinite;
+    animation-delay: 3s;
 
 }
 @keyframes background {
