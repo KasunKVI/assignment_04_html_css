@@ -3,7 +3,7 @@ body{
 }
 
 section>div:first-child{
-    background-image: url("/assets/images/sky.jpg");
+    background-image: url("/case_06/assets/images/sky.jpg");
     background-position: center;
     background-size: cover;
     width: 100vw;
@@ -11,7 +11,7 @@ section>div:first-child{
 
 }
 section>div:nth-child(2){
-    background-image: url("/assets/images/road.jpg");
+    background-image: url("/case_06/assets/images/road.jpg");
     background-position: center;
     /*background-size: cover;*/
     width: 100vw;
@@ -22,7 +22,7 @@ section>div:nth-child(2){
     animation-delay: 3s;
 }
 section>div:nth-child(3){
-    background-image: url("/assets/images/city.png");
+    background-image: url("/case_06/assets/images/city.png");
     background-position: center;
     /*background-size: cover;*/
     width: 100vw;
@@ -33,7 +33,7 @@ section>div:nth-child(3){
     animation-delay: 3s;
 }
 section>div:last-child{
-    background-image: url("/assets/images/car.png");
+    background-image: url("/case_06/assets/images/car.png");
     background-position: center;
     background-size: cover;
     width: 25vw;
@@ -43,7 +43,7 @@ section>div:last-child{
     left: 40vw;
 }
 section>div:last-child>div:first-child{
-    background-image: url("/assets/images/wheel.png");
+    background-image: url("/case_06/assets/images/wheel.png");
     background-position: center;
     background-size: cover;
     width: 4.5vw;
@@ -56,7 +56,7 @@ section>div:last-child>div:first-child{
 
 }
 section>div:last-child>div:last-child{
-    background-image: url("/assets/images/wheel.png");
+    background-image: url("/case_06/assets/images/wheel.png");
     background-position: center;
     background-size: cover;
     width: 4.5vw;
